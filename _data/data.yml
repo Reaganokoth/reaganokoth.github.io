@@ -1,0 +1,158 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    #about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Reagan Okoth
+    tagline: Spatial Data Scientist | Marine Ecologist | Remote Sensing
+    avatar: Resume_picture_reshaped.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: rk.okoth@gmail.com
+    phone: '+4915906146698'
+    citizenship: Kenyan
+    linkedin: Reagan Okoth
+    github: Reaganokoth
+    gitlab:
+    bitbucket:
+    twitter: '@Okothreagan1'
+    stack-overflow: 
+    codewars:
+    goodreads: 
+    pdf: https://github.com/Reaganokoth/myportfolio/blob/master/assets/images/Ronald_Reagan_Okoth_Resume.pdf #give the link to the pdf file here
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Intermediate
+
+      - idiom: Kiswahili
+        level: Native
+      
+      - idiom: Luo
+        level: Native
+      
+      - idiom: Turkish
+        level: Beginer
+
+    interests:
+      - item: Biking
+        link:
+
+      - item: Soccer
+        link:
+
+      - item: Growing food
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      At the dawn of my career, I have developed different disciplines, from the
+      technical to the social. With a heart open to our land's resource and land
+      sustainability to the needs of the society, my desire is to make a positive impact
+      with my growing global mind-set and cross-cultural appreciation. Besides my
+      education, interest in Remote Sensing and Data Science, I am a creative and
+      honest expressive communicator. I am tolerant, reliable, charismatic and able
+      to address problems. It would be an honor to work with an organization that will
+      have me contributing to something bigger than myself and positively impact the
+      community.
+education:
+    - degree: MSc Applied Earth Observation and Geo-analysis of the Living Environment (EAGLE)
+      university: Würzburg University Germany
+      time: 2020 - Present
+      details: |
+        This master's program is in part based on the exploration of various
+        programming languages to process and analyze Earth Observation data.
+            During this study, I have implemented various projects that directly involved manipulation and processing of EO data using the most contemporary platforms. In the most recent project, I modelled drought induced loss in agricultural production in Kenya based on freely available satellite data (MODIS, CHIRPS). I was able to accurately predict major drought years in Kenya. This work was performed both on Google Earth Engine (GEE) and in R. On another project, I quantified drought impact on European Forests following the 2018 heatwave. Here I mapped dead trees from Planet Data using Python.
+        
+    - degree: MSc Marine and Lacustrine Science and Management (Oceans & Lakes)
+      university: Vrije Universiteit Brussels | Ghent University | Antwerpen University
+      time: 2018 - 2020
+      details: |
+        I had a year of research and development where I worked with Ph.D. students and my professor for my master's thesis. My work focused on finding patterns of dune resilience and stability in relation to tidal regimes, urbanization, and country. Here, I wrote codes to classify multiple satellite images from multiple timestamps into different landcover classes then extracted relevant vegetation data.
+        
+        
+        
+    - degree: BSc Coastal and Marine Resource Managenent
+      university: Kenyatta University
+      time: 2012 - 2016
+      details: |
+        For my undergraduate research, I assessed the amount of organic carbon stored in the sediment of different seagrass species in Gazi Bay in Kenya.
+    
+
+experiences:
+    
+    - role: Student Research Assistant
+      time: May 2022 - Present
+      company: Helmholtz Centre for Environmental Research (UFZ) Remote Sensing Department - Leipzig
+      details: |
+        
+        I work within the Terrestrial Water Dynamics (TWD) research group. The group aims to quantify terrestrial water cycle dynamics from the integration of multi-source Earth observations and modelling framework across scales. My role within the team is to source for relevant remote sensing products and develop data pipelines for batch processing of large datasets. I have developed both, python and bash scripts, to automate data download and preprocessing (subsetting global datasets into multiple small tiles and indexing specific variables of interest). I have gained key experience excecuting scripts remotely on a linux server and also working with cluster managment systems like SLURM.
+    
+    - role: Mangrove Allometry Consultant
+      time: February 2022 - March 2022
+      company: Kumi Analytics
+      details: |
+        Advised on species specific allometric equations to be used to derive above ground mangrove biomass based on literature research. I also automated the implemention of above ground biomass (AGB) algorithms from literature and evaluated their suitability in python.
+
+    - role:Internship
+      time: January 2022 - March 2022
+      company: German Aerospace Centre (DLR)
+      details: |
+        
+        I worked with team Coast and River Basin withing the framework of Locust Tec project while at DLR. Here, I wrote a python script to automate download of FAO monthly locust report from their archives. The script can also automatically extract information such as the total amount of areas per country that was treated with pesticides and approximate geolocation of where the treatments happened from the pdf documents.
+    
+    - role:Student Research Assistant
+      time: August 2020 - December 2021
+      company: Alfred Wegener Institute, Potsdam, Germany
+      details: |
+        
+        I created vegetation classification across Lena delta from both Sentinel and Landsat images, and investigate potential inter annual dynamics and trends (spatial) as well as the intra-class variation in vegetation phenology using Google Earth Engine and Jupyter notebook platforms.
+          
+    - role: Internship
+      time: July 2019 — December 2019
+      company: VITO, Mol, Belgium
+      details: |
+        
+        I annotated drone images to create training data for a Deep Learning model developed to detect palm, apple, and pear trees from remote sensing data.
+projects:
+    title: Projects
+    intro: >
+      Away from school projects, I have also implemented various web-scrapping python programmes just for my own use.
+    assignments:
+      - title: Fuel Price Monitor
+        link: "#hook"
+        tagline: "I wrote a web crawler that collects gas price every hour from all gas stations around my residence, compare the prices from each gas station and recommend what time of the day, and where is best to fuel my car."
+
+      - title: Discounted Products Crawler
+        link: "#"
+        tagline: "Another web crawler collects data on discounted items from major online stores for specific items and recommends from which store to purchase."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: R
+        level: 70%
+
+      - name: bash
+        level: 60%
+
+      - name: QGIS
+        level: 70%
+
+      - name: Git
+        level: 60%
+
+#footer: >
+    #Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
